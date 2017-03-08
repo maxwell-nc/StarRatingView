@@ -1,6 +1,30 @@
 # StarRatingView
 An Android custom star rating view which support setting
 
+# Feature
+
+- Support setting size
+- Support setting total star
+- Support setting init rate count
+- Support setting orientation
+
+# How to
+1. Add it in your root build.gradle at the end of repositories
+```
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+2. Add the dependency
+```
+	dependencies {
+	     compile 'com.github.maxwell-nc:StarRatingView:1.0'
+	}
+```
+
 # Usage
 
 -  Just copy in layout
